@@ -7,7 +7,7 @@ test1_assert_minimum_length.py file contains a solution to Test 1:<br>
     Print the longest word on the page.
 
 Page under test: https://the-internet.herokuapp.com/dynamic_content<br>
-Used Selenium driver: chromedriver (path_to_chromedriver variable needs to be changed for your location of the driver).
+Used Selenium driver: chromedriver
 
 IMPORTANT: Before running the script, the variable path_to_chromedriver has to be changed to point to your location of chromedriver.exe
 
