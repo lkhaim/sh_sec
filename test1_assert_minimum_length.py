@@ -1,3 +1,15 @@
+"""
+This is a solution to Test 1: 
+	Assert that the dynamic text (the lorem ipsum text block) on the page
+	contains a word at least 10 characters in length.
+ 	Stretch goal:
+        Print the longest word on the page.
+
+Page under test: https://the-internet.herokuapp.com/dynamic_content
+Used Selenium driver: chromedriver (path_to_chromedriver variable needs
+to be changed for your location of the driver)
+"""
+
 #***SETUP
 
 import sys
