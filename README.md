@@ -94,6 +94,8 @@ Quis iste blanditiis dolore ipsum suscipit officia mollitia facere sunt est sed 
 RESULTS<br>
 Minimum required length of 10 char is found first time at the word 'blanditiis' in text row 1.
 
+====================
+
 test2_assert_if_image_in_the_list.py<br>
 Output example for assign_names equal to True and False.
 
