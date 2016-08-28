@@ -7,16 +7,16 @@ test1_assert_minimum_length.py file contains a solution to Test 1:<br>
   Assert that the dynamic text (the lorem ipsum text block) on the page contains a word at least 10 characters in length.<br>
   Stretch goal:<br>
     Print the longest word on the page.
-  
+
   To turn the printing of the longest word on the page on and off, edit the find_longest variable, which is currntly set to 'True'
 
 test2_assert_if_image_in_the_list.py contains a solution to Test 2:<br> 
-    Assert that the "Punisher" image (silhouette with a skull on his chest) does not appear on the page.<br>
-    Stretch goal:<br>
-        Give names to each avatar that can appear on the page and print out each avatars name.<br>
-    
-    Images of avatars (often called 'avatars' for brevity sake in the comments) are identified using their URL and size.<br>
-    To turn the giving of names on and off, edit the assign_names variable, which is currntly set to 'True'
+  Assert that the "Punisher" image (silhouette with a skull on his chest) does not appear on the page.<br>
+  Stretch goal:<br>
+    Give names to each avatar that can appear on the page and print out each avatars name.<br>
+
+  Images of avatars (often called 'avatars' for brevity sake in the comments) are identified using their URL and size.<br>
+  To turn the giving of names on and off, edit the assign_names variable, which is currntly set to 'True'
     
 Page under test: https://the-internet.herokuapp.com/dynamic_content<br>
 Used Selenium driver: chromedriver
