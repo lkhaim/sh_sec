@@ -29,8 +29,7 @@ def test(driver, row_count_expected, xpath_start, xpath_end,
          length_req, find_longest):
 
     # find how many rows of text there are on the page
-    row_count_actual = len(driver.find_elements_by_xpath
-                               ("//div[@class='large-10 columns']"))
+    row_count_actual = len(driver.find_elements_by_xpath("/" + xpath_end))
 
     # Warn if the actual number of text rows is different from expected
     if row_count_actual != row_count_expected:
